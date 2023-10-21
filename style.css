@@ -1,0 +1,64 @@
+
+@keyframes bg_color {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: orange;
+    }
+    20% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: green;
+    }
+    60% {
+        background-color: blue;
+    }
+    80% {
+        background-color: indigo;
+    }
+    100% {
+        background-color: violet;
+    }
+}
+
+@keyframes header_color {
+    0% {
+        background-color: violet;
+        color: red;
+    }
+    10% {
+        background-color: indigo;
+        color: orange;
+    }
+    20% {
+        background-color: blue;
+        color: yellow;
+    }
+    40% {
+        background-color: green;
+        color: blue;
+    }
+    60% {
+        background-color: yellow;
+        color: green;
+    }
+    80% {
+        background-color: orange;
+        color: indigo;
+    }
+    100% {
+        background-color: red;
+        color: violet;
+    }
+}
+
+html {
+    animation: bg_color 1s infinite;
+}
+
+h1 {
+    animation: header_color 1s infinite;
+    text-align: center;
+}
